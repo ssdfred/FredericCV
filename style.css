@@ -1,0 +1,127 @@
+/* ... Styles précédents ... */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(241, 241, 241);
+
+}
+.right-section h2{
+  color: rgb(9, 24, 97);
+  font-size: 18px;
+}
+.right-section h1{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: rgb(232, 236, 27);
+  text-align: center;
+}
+/* Style pour la mise en page en colonnes */
+.main-content {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: auto;
+  
+}
+.main-content img{
+  width: 20%;
+  height: 20%;
+  
+  
+}
+
+/* Style pour la section de gauche */
+.left-section {
+  
+  flex: 0.8; /* La section de gauche occupe 0.6 de l'espace */
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrer le contenu */
+  background-color: rgb(5, 5, 147);
+}
+.left-section h2{
+  color:  rgb(230, 252, 64);
+}
+.left-section div{
+  margin:15px;
+}
+
+/* Style pour la photo de profil */
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px; /* Ajoute un espace sous la photo */
+  border: 5px solid rgba(249, 249, 5, 0.94); /* Ajoute une bordure jaune de 5px autour de la photo */
+}
+
+/* Style pour le reste du contenu du CV (à droite de la section PROFIL) */
+.right-section {
+  flex: 2; /* La section de droite occupe 2/3 de l'espace */
+  background-color: rgba(245, 242, 242, 0.865);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.right-section div{
+  margin-top: 60PX;
+  margin-left: 25px;
+}
+
+.right-section ul{
+  font-size: 1.2em;
+  font-weight: 400;
+  color:  rgb(7, 18, 77);
+}
+/* Style pour les titres des sections */
+.left-section h2, .right-section h2 {
+  margin-top: 0;
+}
+
+/* Style pour les sections LANGUES et COMPÉTENCES */
+.languages, .skills {
+  margin-top: 20px;
+}
+/* Style pour l'en-tête (header) */
+header {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+/* Style pour l'image dans l'en-tête */
+.header-image {
+  background-image: url('uploads/head.jpg'); 
+  background-size: cover;
+  background-position: center top;
+  height: 200px; 
+}
+
+/* Style pour le texte dans l'en-tête */
+header h1 {
+  color: rgb(245, 245, 238);
+  position: relative;
+  z-index: 1;
+  margin-top: -50px; /* Décale légèrement le texte vers le haut pour superposer l'image */
+}
+.header-h1{
+  margin-top: 10px;
+}
+/* Style pour le pied de page (footer) */
+
+.footer-image {
+  background-image: url('uploads/head.jpg'); 
+  background-size: cover;
+  background-position: center top;
+  height: 200px; 
+
+}
+footer {
+  color: rgb(233, 231, 231);
+  text-align: center;
+  padding: 10px 0;
+  line-height: 100px; /* Hauteur de la ligne de texte */
+}
